@@ -2,10 +2,11 @@ import cv2
 import os
 import string
 
-img = cv2.imread(r"D:\ibm intern\stegnography\Stenography\image.png") # Replace with the correct image path
+img = cv2.imread(r"D:\ibm intern\Steganography\image.png") # Replace with the correct image path
 
 msg = input("Enter secret message:")
 password = input("Enter a passcode:")
+
 
 d = {}
 c = {}
